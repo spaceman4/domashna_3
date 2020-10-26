@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
+    background-color: thistle;
 }
 
 .menu {
@@ -58,5 +59,129 @@ body {
 
 .homespan {
     font-size: smaller;
+}
+
+{
+
+}
+
+.mainheading  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color: white;
+    width: 90%;
+    height: 15rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2rem; 
+}
+
+.headingtext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 700px;
+    height: 160px;
+     
+}     
+
+.headingpic {
+   display: flex; 
+   justify-content: space-evenly;
+   margin-top: 50px;
+}
+
+#swagpic {
+
+}
+
+.scrollbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 2rem;
+    background-color: rgba(245, 245, 245, 0.76);
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.buttonwheel {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+
+#button1 {
+    height: 1rem;
+    width: 2rem;
+    background-color: violet;
+}
+
+#button2 {
+    height: 1rem;
+    width: 2rem;
+    background-color: yellowgreen;
+}
+
+.titlebox {
+    height: 15rem;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.titleelements {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#element {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: rgb(109, 49, 189);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footerbox {
+    height: 10rem;
+    background-color: turquoise;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+.footermenu {
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    background-color: aquamarine;
+    margin-top: auto;
+}
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.credits span {
+    padding-left: 2rem;
+    padding-top: 1rem;
 }
 
