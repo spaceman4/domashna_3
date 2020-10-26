@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.menu {
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    background-color: aquamarine;
+}
+
+.logo {
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+    
+
+}
+
+#logopic {
+    width: 6rem;
+    height: 6rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 2.5rem;
+    cursor: pointer;
+    
+}
+
+.buttons div {
+    font-size: larger;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 10%;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.homebar {
+    margin: 0rem;
+    height: 2rem;
+    background-color: lightblue;
+    padding-left: 4rem;
+    
+}
+
+.homespan {
+    font-size: smaller;
+}
+
